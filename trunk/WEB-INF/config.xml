@@ -1,0 +1,24 @@
+<config>
+	<site>
+		<url>http://127.0.0.1/magir</url>
+	</site>
+	<database>
+		<type>mysql</type>
+		<host>localhost</host>
+		<usr>root</usr>
+		<pass></pass>
+		<name>magix</name>
+	</database>
+	<php>
+		<max_execution_time>30</max_execution_time>
+		<error_reporting>E_ALL</error_reporting>
+		<display_errors>On</display_errors>
+		<log_errors>On</log_errors>
+		<error_log>WEB-INF/error.log</error_log>
+		<register_globals>Off</register_globals>
+		<magic_quotes_gpc>Off</magic_quotes_gpc>
+		<magic_quotes_runtime>Off</magic_quotes_runtime >
+		<upload_max_filesize>9M</upload_max_filesize>
+	</php>
+	
+</config>
